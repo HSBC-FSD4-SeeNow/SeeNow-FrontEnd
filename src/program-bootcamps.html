@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="../dist/output.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
     <script src="https://cdn.tailwindcss.com"></script>
-    <title>Project Replika Landing Page harisenin.com dengan Tailwind</title>
+    <title>Program Bootcamp</title>
     <style>
       #theText::before {
       content: "Pindah Jalur Karir.";
@@ -18,9 +18,9 @@
       }
 
       @keyframes animate {
-      0% {content: "Beda Jurusan."; }
-      50% {content: "Belum Lusus Kuliah.";}
-      75% {content: "Kurang Pengalaman.";}
+      0% {content: "Butuhkan."; }
+      50% {content: "Impikan.";}
+      75% {content: "Idamkan.";}
       }
     </style>
 </head>
@@ -36,8 +36,8 @@
           </button>
         </div>
           <div class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0" id="navbar-collapse">
-          <a href="#" class="p-2 lg:px-4 md:mx-2 text-white rounded">Home</a>
-          <a href="./program-bootcamps.html" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Program</a>
+          <a href="./program-bootcamps.html" class="p-2 lg:px-4 md:mx-2 text-white rounded">Home</a>
+          <a href="#" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Program</a>
           <a href="#" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Video Course</a>
           <a href="#" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Corporate</a>
           <a href="#" class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300">Partnership</a>
@@ -47,103 +47,89 @@
       </div>
     </nav>
   <!-- Bagian Hero -->
-    <div class="bg-slate-100 pt-8 md:pb-0 pt-8">
+    <div class="bg-slate-100 pt-20">
       <div class="container  px-6 mx-auto">       
         <div class="box-border flex flex-wrap">
-          <hero-content class="w-full md:w-3/5 bg-slate-100 "> 
-            <h1 class="text-3xl font-bold text-black-700 mb-4">Raih Karir Impianmu,<br> Walau<!-- efek -->
+          <hero-content class="w-full md:w-1/2 bg-slate-100 "> 
+            <h1 class="text-3xl font-bold text-black-700 mb-4">Temukan Program yang<br>Kamu<!-- efek -->
               <span id="theText"></span></h1>
-            <P class="text-base">Kuasai skill dan dapatkan pekerjaan impianmu. Sudah 3385 alumni berhasil meraih karir impian mereka. Apabila setelah lulus kamu belum bekerja dalam 365 hari, kamu berhak mendapatkan refund up to 110% dari investasimu. Kuasai skill dan dapatkan pekerjaan impianmu.</P>
-            <button class="bg-teal-500 text-white font-bold text-sm py-2 px-4 my-8 rounded hover:bg-teal-700" ><a href="#">Temukan Bootcamp Yang Tepat</a></button>
-            <div class="flex">
-              <div class="flex-none"><img class="rounded-full w-12" src="images/testi-img-1.webp"></div>
-              <div class="flex-none -ml-3"><img class="rounded-full w-12" src="images/testi-img-2.webp"></div>
-              <div class="flex-none -ml-3"><img class="rounded-full w-12" src="images/testi-img-3.webp"></div>
-              <div class="p-3">
-                <div>
-                  <span class="fa fa-star text-yellow-500"></span>
-                  <span class="fa fa-star text-yellow-500"></span>
-                  <span class="fa fa-star text-yellow-500"></span>
-                  <span class="fa fa-star text-yellow-500"></span>
-                  <span class="fa fa-star"></span>
+            <P class="text-base pb-8">Pelajari keterampilan yang paling banyak dibutuhkan untuk
+                pekerjaan hari ini dan masa depan dengan harga kompetitif</P>
+        <form>   
+            <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
+            <div class="relative">
+                <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
+                    <svg aria-hidden="true" class="w-5 h-5 text-gray-500 dark:text-gray-400" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path></svg>
                 </div>
-                <div class="text-xs" >(4.9/5 dari 3386 Alumni)</div>
-              </div>
+                <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Cari program yang tepat untukmu">
+                <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-teal-500 hover:bg-teal-800 focus:ring-4 focus:outline-none focus:ring-teal-300 font-medium rounded-lg text-sm px-4 py-2">Cari</button>
             </div>
-          </hero-content> 
-          <div class="w-full md:w-2/5  bg-slate-100 pb-0"> 
-            <img src="./images/homepage_banner_people-9.webp" >
+        </form>
+
+        </hero-content> 
+          <div class="w-full md:w-1/2  bg-slate-100 pb-0 "> 
+            <img src="./images/banner_school-list.webp" >
           </div> 
         </div>
       </div>
     </div>
   <!-- Bagian hero end -->
   </div>
-<div class="container mx-auto mb-3 mt-8 py-5 px-6">
-  <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-    <div class="font-bold p-6 text-sm bg-gray-100 border-2 border-gray-200 rounded-md" ><img src="images/icon_webapp-4.webp"><br> Gaji rata - rata alumni :
-      Rp 9.5 juta </div>
-    <div class="font-bold p-6 text-sm bg-gray-100 border-2 border-gray-200 rounded-md" ><img src="images/icon_webapp-8.webp"><br>5 hari belum bekerja, 
-      Investasi kembali up to 110%</div>
-      <div class="font-bold p-6 text-sm bg-gray-100 border-2 border-gray-200 rounded-md" ><img src="images/icon_webapp-1.webp"><br>Kurikulum standard industri & fokus kepada prakteknya</div>
-    <div class="font-bold p-6 text-sm bg-gray-100 border-2 border-gray-200 rounded-md" ><img src="images/icon_webapp-7.webp"><br>Lebih terjangkau dibanding bootcamp lain</div>
-  </div>
-</div>
-<div class="container mx-auto my-3 py-5 px-6">
-  <div class="py-7">
-    <h2 class="font-bold text-2xl">Penawaran Menarik Untukmu</h2>
-  </div>
-  <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-    <div><img src="images/banner-promo1.webp" class="rounded-md"></div>
-    <div><img src="images/banner-promo2.webp" class="rounded-md"></div>   
-  </div>
-</div>
-<!-- Program Terbaik -->
-<div class="container mx-auto my-3 py-5 px-6">
-  <div class="py-7">
-    <h2 class="font-bold text-2xl">Program Terbaik Harisenin.com</h2>
-  </div>
-  <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <div class="flex py-1 px-6   text-md border-2 border-gray-200  rounded-md items-center align-middle center-center">
-        <div class="flex-none" ><img src="images/icon_webapp-prakerja-2.webp" class="w-[44px] "></div>
-        <div class="p-6 text-md font-bold">Bootcamp</div>
-      </div>
-      <div class="flex py-1 px-6  text-md border-2 border-gray-200  rounded-md items-center align-middle ">
-        <div class="flex-none" ><img src="images/icon_webapp-prakerja-3.webp" class="w-[44px] "></div>
-        <div class="p-6 text-md font-bold">Proclass</div>
-      </div>
-      <div class="flex py-1 px-6  text-md border-2 border-gray-200  rounded-md items-center align-middle ">
-        <div class="flex-none" ><img src="images/icon_webapp-prakerja-4.webp" class="w-[44px] "></div>
-        <div class="p-6 text-md font-bold">Video Course</div>
-      </div>
-  </div>
-</div>
+
 <!-- Daftar Program yang berjalan -->
-<div class="container mx-auto my-3 py-5 px-6 mb-6">
+<div class="container mx-auto my-3 py-5 px-6 mb-6 ">
   <div class="py-7">
-    <h2 class="font-bold text-2xl mb-3">Bootcamp</h2>
-    <p class="text-md text-slate-400">Program belajar intensif dengan Job-Guarantee, hanya dalam 3 - 6 Bulan</p>
+    <h2 class="font-bold text-2xl mb-3 text-center">Jelajahi Program Bootcamp</h2>
+    <p class="text-md text-slate-400 text-center">Belajar intensif dengan career coaching dan job-guarantee, hanya dalam 3-6 bulan</p>
   </div>
   <div class="grid psm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
       <div class="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center">
         <div class="mb-4"><img src="images/topik-bootcamp-1.webp" class="rounded-md w-full"></div>
         <div class="font-bold text-xl px-4">Human Resources</div>
-        <div class="text-bold text-xl text-teal-500 text-bold mb-4 px-4">Rp. 3.000.000</div>
+          <div class="px-4">
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="text-bold text-xl text-teal-500 text-bold mb-4 px-4 text-right">Rp. 3.000.000</div>
       </div>
       <div class="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center">
         <div class="mb-4"><img src="images/topik-bootcamp-2.webp" class="rounded-md w-full"></div>
         <div class="font-bold text-xl px-4">UI/UX Design & Product Management</div>
-        <div class="text-bold text-xl text-teal-500 text-bold mb-4 px-4">Rp. 3.000.000</div>
+        <div class="px-4">
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="text-bold text-xl text-teal-500 text-bold mb-4 px-4 text-right">Rp. 3.000.000</div>
       </div>
       <div class="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center">
         <div class="mb-4"><img src="images/topik-bootcamp-3.webp" class="rounded-md w-full"></div>
         <div class="font-bold text-xl px-4">Fullstack Developer</div>
-        <div class="text-bold text-xl text-teal-500 text-bold mb-4 px-4">Rp. 3.000.000</div>
+        <div class="px-4">
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="text-bold text-xl text-teal-500 text-bold mb-4 px-4 text-right">Rp. 3.000.000</div>
       </div>
       <div class="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center">
         <div class="mb-4"><img src="images/topik-bootcamp-4.webp" class="rounded-md w-full"></div>
         <div class="font-bold text-xl px-4">Fullstack Digital Marketing</div>
-        <div class="text-bold text-xl text-teal-500 text-bold mb-4 px-4">Rp. 3.000.000</div>
+        <div class="px-4">
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star text-yellow-500"></span>
+          <span class="fa fa-star"></span>
+        </div>
+        <div class="text-bold text-xl text-teal-500 text-bold mb-4 px-4 text-right">Rp. 3.000.000</div>
       </div>
     </div>
 </div>
