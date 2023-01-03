@@ -18,5 +18,8 @@
   "homepage": "https://github.com/HSBC-FSD4-SeeNow/SeeNow-FrontEnd#readme",
   "dependencies": {
     "tailwindcss": "^3.2.4"
+  },
+  "devDependencies": {
+    "postcss-import": "^15.1.0"
   }
 }

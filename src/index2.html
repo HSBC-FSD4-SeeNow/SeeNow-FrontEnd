@@ -7,6 +7,7 @@
     <meta author="Muhamad Arya Kurniawan">
     <link rel="stylesheet" href="../dist/output.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
     <title>Program Bootcamp</title>
     <style>
       #theText::before {
@@ -22,6 +23,7 @@
       75% {content: "Idamkan.";}
       }
     </style>
+
 </head>
 <body>
 <!-- Navigasi -->
@@ -29,7 +31,7 @@
     <nav class="bg-white py-2 md:py-4">
       <div class="container px-6 mx-auto md:flex md:items-center">
         <div class="flex justify-between items-center">
-          <a href="./index.html" ><img src="images/Logo-sinau-digital.png" alt="Logo" class="h-[40px]"></a>
+          <a href="./index.html" ><img src="images/logo-harisenin.png" alt="Logo" class="w-44"></a>
           <button class="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden" id="navbar-toggle">
             <i class="fas fa-bars"></i>
           </button>
@@ -47,13 +49,15 @@
   <!-- Bagian Hero -->
     <div class="bg-slate-100">
       <div class="container px-6 mx-auto">       
-        <div class="box-border flex flex-wrap items-center justify-between">
-          <hero-content class="w-full md:w-2/5 bg-slate-100  py-12"> 
-            <h1 class="text-3xl font-bold text-black-700 mb-4">Temukan Program yang<br>Kamu<!-- efek -->
+        <div class="box-border flex flex-wrap items-center justify-between py-12">
+          <hero-content class="w-full md:w-2/5 bg-slate-100 "> 
+            <h1 class="text-4xl font-bold text-black-700 mb-4">Temukan Program yang<br>Kamu<!-- efek -->
               <span id="theText"></span></h1>
-              <P class="text-base pb-8">Pelajari keterampilan yang paling banyak dibutuhkan untuk
+              <P class="text-2xl pb-8">Pelajari keterampilan yang paling banyak dibutuhkan untuk
                 pekerjaan hari ini dan masa depan dengan harga kompetitif</P>
-              <form>   
+                <button class="bg-blue-700 text-white text-xl py-2 px-6 rounded hover:bg-blue-500" ><a href="#">Temukan Bootcamp Yang Tepat</a></button>
+            
+              <!-- <form>   
                   <label for="default-search" class="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
                   <div class="relative sm:w-full lg:w-96">
                       <div class="absolute inset-y-0 left-0 flex items-center pl-3 pointer-events-none">
@@ -61,7 +65,7 @@
                       </div>
                       <input type="search" id="default-search" class="block w-full p-4 pl-10 text-sm text-gray-900 border border-gray-300 rounded-lg bg-gray-50 focus:ring-blue-500 focus:border-blue-500" placeholder="Cari program yang tepat untukmu">
                       <button type="submit" class="text-white absolute right-2.5 bottom-2.5 bg-blue-500 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm px-4 py-2">Cari</button>
-                  </div>
+                  </div> -->
               </form>
           </hero-content> 
           <div class="w-full md:w-3/5  bg-slate-100 pb-0"> 
@@ -72,29 +76,28 @@
     </div>
   <!-- Bagian hero end -->
   </div>
-
+ 
 <!-- Daftar Program yang berjalan -->
-<a href="./products.html">
-<div class="container mx-auto my-3 py-14 px-6 ">
+<div class="container mx-auto my-3 py-14 px-6 mb-6 ">
   <div class="py-7">
-    <h2 class="font-bold text-2xl mb-3 text-center">Jelajahi Program Bootcamp Paling Banyak dicari</h2>
+    <h2 class="font-bold text-2xl mb-3 text-center">Jelajahi Program Bootcamp</h2>
     <p class="text-md text-slate-500 text-center">Belajar intensif dengan career coaching dan job-guarantee, hanya dalam 3-6 bulan</p>
   </div>
-  <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
       <div class="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center pb-6">
-        <div class="mb-6"><img src="images/Produck-bootcamp-banner-fullstack-developer.webp" class="rounded-md"></div>
-        <div class="font-bold text-xl px-4 my-2 ">Fullstack Web Developer with Javascript</div>
+        <div class="mb-6"><img src="images/topik-bootcamp-1.webp" class="rounded-md"></div>
+        <div class="font-bold text-xl px-4 my-2 ">Human Resources</div>
         <!-- training info meta -->
         <div class="flex my-4 gap-2.5">
-           <div class="flex-none pl-4 text-sm gap-1.5">
+           <div class="flex-none px-4 text-sm gap-1.5">
              <span class="fa-regular fa-bookmark text-blue-500"></span>
              <span>28 Materi</span>
            </div>
-           <div class="flex-none pl-2 text-sm gap-2.5">
+           <div class="flex-none px-3 text-sm gap-2.5">
              <span class="fa-regular fa-clock text-blue-500"></span>
              <span>5 Bulan</span>
            </div>
-           <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+           <div class="flex-none flex-nowrap px-3 text-sm gap-2.5">
              <span class="fa-regular fa-user text-blue-500"></span>
              <span>Batch 5</span>
            </div>
@@ -119,19 +122,19 @@
         
       </div>
       <div class="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center">
-        <div class="mb-4"><img src="images/Produck-bootcamp-banner-UIUX-design.webp" class="rounded-md w-full"></div>
+        <div class="mb-4"><img src="images/topik-bootcamp-2.webp" class="rounded-md w-full"></div>
         <div class="font-bold text-xl px-4">UI/UX Design & Product Management</div>
         <!-- training info meta -->
         <div class="flex my-4 gap-2.5">
-          <div class="flex-none pl-4 text-sm gap-1.5">
+          <div class="flex-none px-4 text-sm gap-1.5">
             <span class="fa-regular fa-bookmark text-blue-500"></span>
             <span>28 Materi</span>
           </div>
-          <div class="flex-none pl-2 text-sm gap-2.5">
+          <div class="flex-none px-3 text-sm gap-2.5">
             <span class="fa-regular fa-clock text-blue-500"></span>
             <span>5 Bulan</span>
           </div>
-          <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+          <div class="flex-none flex-nowrap px-3 text-sm gap-2.5">
             <span class="fa-regular fa-user text-blue-500"></span>
             <span>Batch 5</span>
           </div>
@@ -156,19 +159,19 @@
      
       </div>
       <div class="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center">
-          <div class="mb-4"><img src="images/Produck-bootcamp-banner-fullstack-digitalmarketing.webp" class="rounded-md w-full"></div>
+          <div class="mb-4"><img src="images/topik-bootcamp-4.webp" class="rounded-md w-full"></div>
           <div class="font-bold text-xl px-4">Fullstack Digital Marketing</div>
           <!-- training info meta -->
         <div class="flex my-4 gap-2.5">
-          <div class="flex-none pl-4 text-sm gap-1.5">
+          <div class="flex-none px-4 text-sm gap-1.5">
             <span class="fa-regular fa-bookmark text-blue-500"></span>
             <span>28 Materi</span>
           </div>
-          <div class="flex-none pl-2 text-sm gap-2.5">
+          <div class="flex-none px-3 text-sm gap-2.5">
             <span class="fa-regular fa-clock text-blue-500"></span>
             <span>5 Bulan</span>
           </div>
-          <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+          <div class="flex-none flex-nowrap px-3 text-sm gap-2.5">
             <span class="fa-regular fa-user text-blue-500"></span>
             <span>Batch 5</span>
           </div>
@@ -191,45 +194,8 @@
          </div>
        </div>
       </div>
-      <div class="text-md border-2 border-gray-200  rounded-md items-center align-middle center-center">
-        <div class="mb-4"><img src="images/Produck-bootcamp-banner-seo2.webp" class="rounded-md w-full"></div>
-        <div class="font-bold text-xl px-4">SEO Specialist</div>
-        <!-- training info meta -->
-      <div class="flex my-4 gap-2.5">
-        <div class="flex-none pl-4 text-sm gap-1.5">
-          <span class="fa-regular fa-bookmark text-blue-500"></span>
-          <span>28 Materi</span>
-        </div>
-        <div class="flex-none pl-2 text-sm gap-2.5">
-          <span class="fa-regular fa-clock text-blue-500"></span>
-          <span>5 Bulan</span>
-        </div>
-        <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
-          <span class="fa-regular fa-user text-blue-500"></span>
-          <span>Batch 5</span>
-        </div>
-      </div>
-      <div class="px-4 my-4">
-       <span class="fa fa-star text-yellow-500"></span>
-       <span class="fa fa-star text-yellow-500"></span>
-       <span class="fa fa-star text-yellow-500"></span>
-       <span class="fa fa-star text-yellow-500"></span>
-       <span class="fa fa-star"></span>
-     </div>
-      <!-- training harga -->
-      <div class="flex mb-1.5 justify-between px-4">
-       <div class="flex-none">
-         <span class="text-sm text-white font-bold bg-red-600 p-1 rounded-md">50%</span>
-         <span class="text-md text-slate-400 font-bold mb-4 line-through">Rp. 6.000.000</span>
-       </div>
-       <div class="flex-nowrap">
-         <span class="font-bold text-md text-blue-500 mb-4">Rp. 3.000.000</span>
-       </div>
-     </div>
-    </div>
     </div>
 </div>
-</a>
 <!-- Footer -->
 <footer class="footer-1 bg-gray-100 sm:py-12 lg:py-14 ">
   <div class="container mx-auto px-4">
@@ -298,5 +264,6 @@
     collapse.classList.toggle("flex");
   };
 </script>
+ 
 </body>
 </html>
