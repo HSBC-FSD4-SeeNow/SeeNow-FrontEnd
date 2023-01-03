@@ -13,5 +13,5 @@ Project ini adalah project tugas kelompok 9 FSD harisenin.com yang kami buat den
 2. Visitor memilih kategori training, misal kategori web development bootcamp untuk melihat daftar web development boot camp yang tersedia
 3. Visitor memilih training bootcamp yang diinginkan, misal javascript fullstack developer. Sehingga masuk ke halaman detail produk training
 
-![My Image](src/images/screencast-home.png)
+![My Image](screencast.png)
 Credit: Kelompok 9 (Arya, Samuel, Aldi, Izaq, Ikliya)
