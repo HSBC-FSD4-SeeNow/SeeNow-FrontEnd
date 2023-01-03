@@ -1,12 +1,14 @@
 # Sinau Digital (.com) Front End Prototype
-Project ini adalah project tugas kelompok 9 FSD harisenin.com yang kami buat. Project ini berupa sebuah website e-learning talenta digital di Indonesia.
 
-Pada tahap tugas front end alur halaman adalah:
+## About
+Project ini adalah project tugas kelompok 9 FSD harisenin.com yang kami buat dengan menggunakan Tailwindcss. Project ini berupa sebuah website e-learning talenta digital di Indonesia.
+
+## Interaction Flow
+### Pada tahap tugas front end alur halaman adalah:
 1. Visitor sampai ke halaman home
 2. Visitor memilih training bootcamp yang diinginkan. Sehingga masuk ke halaman detail produk training
 
-
-Alternatif alurnya adalah:
+### Alternatif alurnya adalah:
 1. Visitor sampai ke halaman home
 2. Visitor memilih kategori training, misal kategori web development bootcamp untuk melihat daftar web development boot camp yang tersedia
 3. Visitor memilih training bootcamp yang diinginkan, misal javascript fullstack developer. Sehingga masuk ke halaman detail produk training
