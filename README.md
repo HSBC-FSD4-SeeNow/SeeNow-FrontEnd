@@ -1,4 +1,15 @@
-# SeeNow-FrontEnd
-SeeNow FrontEnd HTML + CSS based
+# Sinau Digital (.com) Front End Prototype
+Project ini adalah project tugas kelompok 9 FSD harisenin.com yang kami buat. Project ini berupa sebuah website e-learning talenta digital di Indonesia.
+
+Pada tahap tugas front end alur halaman adalah:
+1. Visitor sampai ke halaman home
+2. Visitor memilih training bootcamp yang diinginkan. Sehingga masuk ke halaman detail produk training
+
+
+Alternatif alurnya adalah:
+1. Visitor sampai ke halaman home
+2. Visitor memilih kategori training, misal kategori web development bootcamp untuk melihat daftar web development boot camp yang tersedia
+3. Visitor memilih training bootcamp yang diinginkan, misal javascript fullstack developer. Sehingga masuk ke halaman detail produk training
+
 ![My Image](src/images/screencast-home.png)
 Credit: Kelompok 9 (Arya, Samuel, Aldi, Izaq, Ikliya)
