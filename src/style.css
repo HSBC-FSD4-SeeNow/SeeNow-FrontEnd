@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 html, body{
     margin: 0;
     padding: 0;
@@ -199,4 +200,207 @@ body{
 
 .form div p a{
     color: #0dad8e;
+=======
+html, body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    background-color: #0dad8e;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 800px;
+    display: flex;
+    position: absolute;
+}
+
+.sideleft{
+    background-color: #0dad8e;
+    width: 40%;
+    box-sizing: border-box;
+}
+
+.sideleft .content-sideleft{
+    margin: auto;
+    margin-top: 50px;
+    width: 500px;
+}
+
+.content-sideleft a img{
+    display: block;
+    width: 40%;
+}
+
+.sideleft h2{
+    margin: 85px 0px;
+    font-size: 30px;
+    color: white;
+    font-weight: 600;
+}
+
+.sideleft .content-sideleft .img-sideleft{
+    width: 250px;
+    margin: 0;
+    margin-top: 100px;
+    position: absolute;
+    top: 30%;
+    left: 12.5%;
+    transform: translate(-25%, -25%);
+}
+
+.sideright{
+    width: 60%;
+    background-color: white;
+    position: absolute;
+    right: 0;
+}
+
+.arrow {
+    border: solid #aaa;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+}
+
+.left {
+    transform: rotate(135deg);
+    -webkit-transform: rotate(135deg);
+}
+
+.sideright a{
+    text-decoration: none;
+}
+
+.sideright a h4{
+    margin: 50px 20px;
+    color: #aaa;
+    font-size: 18px;
+}
+
+.form {
+    background-color: white;
+    width: 70%;
+    padding: 0px;
+    margin: auto;
+    border: 0px solid black;
+    box-sizing: border-box;
+}
+
+.form form div{
+   margin-top: 10px; 
+   display: inline-flexbox;
+   align-items: center;
+}
+
+.form h2{
+    text-align: center;
+    font-size: 30px;
+}
+
+.form div label{
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.form div input, select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 14px;
+}  
+
+.form div .kelamin {
+    display: flex;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 14px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.form div .kelamin input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.form div .kelamin .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+    border-radius: 50%;
+}
+
+.kelamin:hover input ~ .checkmark {
+    background-color: #ccc;
+}
+
+.kelamin input:checked ~ .checkmark {
+    background-color: #0dad8e;
+}
+
+.form div .kelamin .checkmark:after {
+    content: " ";
+    position: absolute;
+    display: none;
+}  
+
+.form div .kelamin input:checked ~ .checkmark:after {
+    display: block;
+}
+
+.kelamin .checkmark:after {
+    top: 6.5px;
+    left: 6.5px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: white;
+}
+
+.form div input[type="submit"]{
+    width: 100%;
+    margin: 8px 0;
+    padding: 10px 20px;
+    border: none;
+    background-color: #0dad8e;
+    color: white;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: .4s;
+}
+
+.form div input[type=submit]:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.form div p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+.form div p a{
+    color: #0dad8e;
+>>>>>>> df157d975219242233dbfee5c3de70e98200421a
 }
