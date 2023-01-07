@@ -4,7 +4,8 @@
   "description": "Tugas belajar html css bootcamp harisenin.com kelompok 9",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "npx tailwindcss -i ./src/input.css -o ./src/css/output.css --minify"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,8 @@
   },
   "homepage": "https://github.com/HSBC-FSD4-SeeNow/SeeNow-FrontEnd#readme",
   "dependencies": {
+    "postcss": "^8.4.21",
+    "postcss-cli": "^10.1.0",
     "tailwindcss": "^3.2.4"
   },
   "devDependencies": {
