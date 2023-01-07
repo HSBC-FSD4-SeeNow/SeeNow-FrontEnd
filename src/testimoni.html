@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta author="Muhamad Arya Kurniawan" />
+    <link rel="stylesheet" href="../dist/output.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./config/slick-1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./config/slick-1.8.1/slick/slick-theme.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./css/testimoni.css" />
+    <title>Testimoni</title>
+    <style>
+      #theText::before {
+        content: "Pindah Jalur Karir.";
+        animation: animate infinite 8s;
+        padding-left: 10px;
+        color: #2051e1;
+      }
+
+      @keyframes animate {
+        0% {
+          content: "Beda Jurusan.";
+        }
+        50% {
+          content: "Belum Lusus Kuliah.";
+        }
+        75% {
+          content: "Kurang Pengalaman.";
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <!-- Navigasi -->
+    <div>
+      <nav class="bg-white py-2 md:py-4">
+        <div class="container px-6 mx-auto md:flex md:items-center">
+          <div class="flex justify-between items-center">
+            <a href="./index.html"
+              ><img
+                src="images/Logo-sinau-digital.png"
+                alt="Logo"
+                class="h-[40px]"
+            /></a>
+            <button
+              class="border border-solid border-gray-600 px-3 py-1 rounded text-gray-600 opacity-50 hover:opacity-75 md:hidden"
+              id="navbar-toggle"
+            >
+              <i class="fas fa-bars"></i>
+            </button>
+          </div>
+          <div
+            class="hidden md:flex flex-col md:flex-row md:ml-auto mt-3 md:mt-0"
+            id="navbar-collapse"
+          >
+            <a href="#" class="p-2 lg:px-4 md:mx-2 text-white rounded">Home</a>
+            <a
+              href="./program-bootcamps.html"
+              class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+              >Program</a
+            >
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+              >Video Course</a
+            >
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-gray-600 rounded hover:bg-gray-200 hover:text-gray-700 transition-colors duration-300"
+              >Corporate</a
+            >
+            <a
+              href="./admin.html"
+              class="p-2 lg:px-4 md:mx-2 text-blue-600 text-center border border-solid border-blue-600 rounded hover:bg-blue-600 hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1"
+              >Masuk</a
+            >
+            <a
+              href="#"
+              class="p-2 lg:px-4 md:mx-2 text-white text-center bg-blue-600 border border-solid border-blue-800 rounded hover:bg-blue-800 hover:text-white transition-colors duration-300 mt-1 md:mt-0 md:ml-1"
+              >Daftar</a
+            >
+          </div>
+        </div>
+      </nav>
+      <!-- Bagian Hero -->
+      <div class="bg-slate-100 pt-8 md:pb-0">
+        <div
+          class="container px-6 mx-auto headingContainer"
+          data-aos="flip-left"
+          data-aos-duration="1500"
+        >
+          <h1>Testimoni Of <span>Our</span> Alumni</h1>
+          <p>
+            Sinau Telah meluluskan sebanyak 1345 alumni yang telah bekerja
+            sebagai software engineer dan UI/UX designer diberbagai perusahaan
+            dan startup decacorn di berbagai negara
+          </p>
+        </div>
+      </div>
+      <!-- Bagian hero end -->
+    </div>
+
+    <!-- Daftar Program yang berjalan -->
+    <div class="container mx-auto my-3 py-14 px-6">
+      <div class="py-7" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="font-bold text-2xl mb-3 text-center">
+          Alumni Bootcamp Front End
+        </h2>
+      </div>
+      <div class="feSlider" data-aos="fade-up" data-aos-duration="1500">
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Budi Bambang Jaya</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>FE Batch 5</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Budi Bambang Jaya</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>FE Batch 5</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Budi Bambang Jaya</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>FE Batch 5</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Budi Bambang Jaya</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>FE Batch 5</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Budi Bambang Jaya</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>FE Batch 5</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Budi Bambang Jaya</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>FE Batch 5</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Budi Bambang Jaya</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>FE Batch 5</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Budi Bambang Jaya</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>FE Batch 5</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.ID
+          </div>
+        </div>
+      </div>
+
+      <div class="py-7" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="font-bold text-2xl mb-3 text-center">
+          Alumni Bootcamp Back End
+        </h2>
+      </div>
+      <div class="feSlider" data-aos="fade-up" data-aos-duration="1500">
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Andi James</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>BE Batch 7</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.EN
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Andi James</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>BE Batch 7</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.EN
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Andi James</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>BE Batch 7</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.EN
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Andi James</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>BE Batch 7</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.EN
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Andi James</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>BE Batch 7</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.EN
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Andi James</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>BE Batch 7</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.EN
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Andi James</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>BE Batch 7</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.EN
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Andi James</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>BE Batch 7</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            Programmer di Startup.EN
+          </div>
+        </div>
+      </div>
+
+      <div class="py-7" data-aos="fade-up" data-aos-duration="1500">
+        <h2 class="font-bold text-2xl mb-3 text-center">
+          Alumni Bootcamp UI UX
+        </h2>
+      </div>
+
+      <div class="feSlider" data-aos="fade-up" data-aos-duration="1500">
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Ratna Andini</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>UI/UX Batch 3</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            UI/UX designer di Design.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Ratna Andini</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>UI/UX Batch 3</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            UI/UX designer di Design.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Ratna Andini</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>UI/UX Batch 3</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            UI/UX designer di Design.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Ratna Andini</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>UI/UX Batch 3</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            UI/UX designer di Design.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Ratna Andini</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>UI/UX Batch 3</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            UI/UX designer di Design.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Ratna Andini</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>UI/UX Batch 3</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            UI/UX designer di Design.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Ratna Andini</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>UI/UX Batch 3</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            UI/UX designer di Design.ID
+          </div>
+        </div>
+        <div
+          class="text-md border-2 border-gray-200 rounded-md items-center align-middle center-center pb-6"
+        >
+          <div class="mb-6">
+            <img src="https://picsum.photos/488/488" class="rounded-md" />
+          </div>
+          <div class="font-bold text-xl px-4 my-2">Ratna Andini</div>
+          <!-- training info meta -->
+          <div class="flex my-4 gap-2.5">
+            <div class="flex-none flex-nowrap pl-2 text-sm gap-2.5">
+              <span class="fa-regular fa-user text-blue-500"></span>
+              <span>UI/UX Batch 3</span>
+            </div>
+          </div>
+          <div class="px-4 my-4">
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star text-yellow-500"></span>
+            <span class="fa fa-star"></span>
+          </div>
+          <!-- training harga -->
+          <div class="flex mb-1.5 justify-between px-4">
+            UI/UX designer di Design.ID
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- tambahan -->
+    <div class="container mx-auto mb-3 mt-8 py-5 px-6">
+      <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div
+          class="font-bold p-6 text-sm bg-gray-100 border-2 border-gray-200 rounded-md"
+        >
+          <img src="images/icon_webapp-4.webp" /><br />
+          Gaji rata - rata alumni : Rp 9.5 juta
+        </div>
+        <div
+          class="font-bold p-6 text-sm bg-gray-100 border-2 border-gray-200 rounded-md"
+        >
+          <img src="images/icon_webapp-8.webp" /><br />5 hari belum bekerja,
+          Investasi kembali up to 110%
+        </div>
+        <div
+          class="font-bold p-6 text-sm bg-gray-100 border-2 border-gray-200 rounded-md"
+        >
+          <img src="images/icon_webapp-1.webp" /><br />Kurikulum standard
+          industri & fokus kepada prakteknya
+        </div>
+        <div
+          class="font-bold p-6 text-sm bg-gray-100 border-2 border-gray-200 rounded-md"
+        >
+          <img src="images/icon_webapp-7.webp" /><br />Lebih terjangkau
+          dibanding bootcamp lain
+        </div>
+      </div>
+    </div>
+    <!-- Promosi -->
+    <div class="container mx-auto my-3 py-14 mb-6">
+      <div class="py-7">
+        <h2 class="font-bold text-2xl mb-3 text-center">
+          Penawaran Menarik nih, Bungkus !
+        </h2>
+        <p class="text-md text-slate-500 text-center">
+          Kapan lagi dapetin program bootcamp kece yang hemat, bikin makin
+          semangat kan !
+        </p>
+      </div>
+      <div class="grid sm:grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div><img src="images/banner-promo1.webp" class="rounded-md" /></div>
+        <div><img src="images/banner-promo2.webp" class="rounded-md" /></div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <footer class="bg-gray-100 py-8 sm:py-12 mt-12">
+      <div class="container mx-auto px-4">
+        <div class="sm:flex sm:flex-wrap sm:-mx-4 md:py-4">
+          <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6">
+            <h5 class="text-xl font-bold mb-6">Layanan</h5>
+            <ul class="list-none footer-links">
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Bootcamp</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >ProClass</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Video Course</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Event & Workshop</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Hire Our Graduates</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Internship</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 sm:mt-0">
+            <h5 class="text-xl font-bold mb-6">Tentang</h5>
+            <ul class="list-none footer-links">
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Tentang Kami</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Alumni</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Karir</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+            <h5 class="text-xl font-bold mb-6">FAQ</h5>
+            <ul class="list-none footer-links">
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Kebijakan Kerahasiaan Data</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Ketentuan Layanan</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="px-4 sm:w-1/2 md:w-1/4 xl:w-1/6 mt-8 md:mt-0">
+            <h5 class="text-xl font-bold mb-6">Komunitas</h5>
+            <ul class="list-none footer-links">
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Blog</a
+                >
+              </li>
+              <li class="mb-2">
+                <a href="#" class="border-b border-solid border-transparent"
+                  >Youtube</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div
+            class="px-4 mt-4 sm:w-1/3 xl:w-1/6 sm:mx-auto xl:mt-0 xl:ml-auto"
+          >
+            <h5 class="text-xl font-bold mb-6 sm:text-center xl:text-left">
+              Ikuti Media Sosial Kami
+            </h5>
+            <div class="flex sm:justify-center xl:justify-start">
+              <a
+                href=""
+                class="w-8 h-8 border-2 border-gray-400 rounded-full text-center py-1 text-gray-600 hover:text-white hover:bg-blue-600 hover:border-blue-600"
+              >
+                <i class="fab fa-facebook"></i
+              ></a>
+              <a
+                href=""
+                class="w-8 h-8 border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-blue-400 hover:border-blue-400"
+              >
+                <i class="fab fa-twitter"></i
+              ></a>
+              <a
+                href=""
+                class="w-8 h-8 border-2 border-gray-400 rounded-full text-center py-1 ml-2 text-gray-600 hover:text-white hover:bg-red-600 hover:border-red-600"
+              >
+                <i class="fab fa-google-plus-g"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+        <!-- footer -->
+        <div
+          class="sm:flex sm:flex-wrap sm:-mx-4 mt-6 pt-6 sm:mt-12 sm:pt-12 border-t py-8"
+        >
+          <div>&copy Kelompok 9 FSD Harisenin.com</div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script id="navbar-collapse">
+      let toggleBtn = document.querySelector("#navbar-toggle");
+      let collapse = document.querySelector("#navbar-collapse");
+
+      toggleBtn.onclick = () => {
+        collapse.classList.toggle("hidden");
+        collapse.classList.toggle("flex");
+      };
+    </script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-1.11.0.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="//code.jquery.com/jquery-migrate-1.2.1.min.js"
+    ></script>
+    <script
+      type="text/javascript"
+      src="./config/slick-1.8.1/slick/slick.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".feSlider").slick({
+          slidesToShow: 4,
+          slidesToScroll: 4,
+          dots: true,
+          centerMode: true,
+          focusOnSelect: true,
+          infinite: true,
+          responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 3,
+                slidesToScroll: 3,
+                infinite: true,
+                dots: true,
+              },
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+              },
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1,
+              },
+            },
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+          ],
+        });
+      });
+    </script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
