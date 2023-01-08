@@ -26,3 +26,5 @@ Project ini adalah project tugas kelompok 9 FSD harisenin.com yang kami buat den
 - Reynaldi Ramadhana Iman (Aldi)
 - Ikliliya Zahwa Maulidiya (Ikliliya)
 - Izac Aqsha Ghifari (Izac)
+
+## Page: https://sinaudigital.vercel.app/
